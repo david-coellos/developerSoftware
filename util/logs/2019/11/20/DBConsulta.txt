@@ -1,0 +1,3 @@
+2019-11-20 16:35:00 >>>> Error de consulta. Problema (Unknown column 'Inicio' in 'where clause') SELECT * FROM sys_galerias WHERE ventana = Inicio
+2019-11-20 16:36:32 >>>> Error de consulta. Problema (FUNCTION sanpio.strtolower does not exist) SELECT * FROM sys_galerias WHERE ventana = strtolower(Inicio)
+2019-11-20 16:37:08 >>>> Error de consulta. Problema (Unknown column 'inicio' in 'where clause') SELECT * FROM sys_galerias WHERE ventana = inicio

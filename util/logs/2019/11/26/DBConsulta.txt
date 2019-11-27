@@ -1,0 +1,4 @@
+2019-11-26 15:32:23 >>>> Error de consulta. Problema (Unknown column 'Galeria' in 'field list') INSERT INTO sys_galerias (ventana,actividad,fecha_public) VALUES (Galeria, deportes, NOW() )
+2019-11-26 15:33:43 >>>> Error de consulta. Problema (FUNCTION sanpio.strtolower does not exist) INSERT INTO sys_galerias (ventana,actividad,fecha_public) VALUES (strtolower('Galeria'), deportes, NOW() )
+2019-11-26 15:34:38 >>>> Error de consulta. Problema (Unknown column 'galeria' in 'field list') INSERT INTO sys_galerias (ventana,actividad,fecha_public) VALUES (galeria, deportes, NOW() )
+2019-11-26 15:35:25 >>>> Error de consulta. Problema (Unknown column 'deportes' in 'field list') INSERT INTO sys_galerias (ventana,actividad,fecha_public) VALUES ('strtolower(Galeria)', deportes, NOW() )

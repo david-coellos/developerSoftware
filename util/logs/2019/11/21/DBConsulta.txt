@@ -1,0 +1,6 @@
+2019-11-21 17:31:11 >>>> Error de consulta. Problema (You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY orden' at line 1) SELECT * FROM sys_menuORDER BY orden
+2019-11-21 17:32:41 >>>> Error de consulta. Problema (Unknown column 'nombrelibrerias' in 'field list') 
+        SELECT nombrelibrerias
+        FROM sys_menu
+        WHERE ventana = "inicio"
+    

@@ -1,0 +1,49 @@
+#actividades .titulo{
+    text-decoration-line: underline;
+    font-weight: normal;
+    color: #432A19;
+    margin-top:1rem;
+    margin-bottom: 1.8rem;
+}
+#actividades{
+    padding: 2em 8em;
+}
+#actividades p{
+    color: #432A19;
+    font-size: large;
+    font-stretch: semi-expanded;
+}
+#actividades ul{
+    list-style-type: decimal;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+#actividades ul h5{
+    color: black;
+    font-weight: 700;
+}
+#actividades ul li p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+#actividades ul li ul {
+    list-style-type: lower-alpha;
+}
+#actividades ul li ul li{
+    margin-bottom: 13px;
+}
+#actividades ul li ul li span{
+    text-decoration-line: underline;
+}
+#actividades ul li ul li p{
+    display: contents;
+    text-align: justify;
+    font-size: 17px;
+}
+@media(max-width:500px){
+    #actividades{
+        padding: 2em 2em;
+    }
+}
